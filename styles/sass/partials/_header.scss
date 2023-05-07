@@ -1,0 +1,5 @@
+@use "./variables" as v;
+
+header {
+  font-family: v.$baseFontPrimary;
+}
