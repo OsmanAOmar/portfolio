@@ -601,3 +601,11 @@ textarea {
 input[type=submit] {
   padding: 10px 20px;
 }
+
+footer {
+  background-color: #424b6d;
+  color: #f2f4f5;
+  text-align: center;
+  height: 10vh;
+  padding: 1rem;
+}
