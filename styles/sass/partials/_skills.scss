@@ -1,0 +1,35 @@
+@use "./variables" as v;
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50vh;
+  background-color: v.$infoColor;
+  color: v.$darkColor;
+  .wrapper {
+    text-align: center;
+    h2 {
+      font-family: v.$baseFontPrimary;
+      font-size: 3rem;
+    }
+  }
+  .iconSkills {
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    i {
+      margin: 20px;
+    }
+  }
+}
+
+.iconSkills i::after {
+  content: attr(title);
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}

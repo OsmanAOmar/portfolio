@@ -435,6 +435,52 @@ nav {
   text-align: center;
 }
 
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 50vh;
+  background-color: #a3bdee;
+  color: #000;
+}
+.skills .wrapper {
+  text-align: center;
+}
+.skills .wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+.skills .iconSkills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.skills .iconSkills i {
+  margin: 20px;
+}
+
+.iconSkills i::after {
+  content: attr(title);
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .project {
   background-color: #f2f4f5;
 }
