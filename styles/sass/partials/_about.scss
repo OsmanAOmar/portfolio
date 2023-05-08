@@ -1,0 +1,21 @@
+@use "./variables" as v;
+
+.about {
+  background-color: v.$lightColor;
+  .bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    h2 {
+      font-family: v.$baseFontPrimary;
+      color: v.$secondaryColor;
+      font-size: 3rem;
+    }
+    p {
+      font-family: v.$baseFontSecondary;
+      text-align: center;
+    }
+  }
+}

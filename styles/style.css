@@ -349,5 +349,199 @@ html {
 }
 
 header {
+  min-height: 500px;
+  background-color: #424b6d;
+  color: #f2f4f5;
   font-family: "Playfair Display", serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header h1 {
+  font-size: 4rem;
+}
+header p {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 0;
+  color: red;
+}
+header button {
+  background-color: #eeaf98;
+  color: #000;
+  font-family: "Source Sans Pro", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+nav {
+  background-color: #424b6d;
+  color: #f2f4f5;
+}
+
+.navMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+  padding: 1rem;
+}
+
+.about {
+  background-color: #f2f4f5;
+}
+.about .bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+}
+.about .bio h2 {
+  font-family: "Playfair Display", serif;
+  color: #5169bd;
+  font-size: 3rem;
+}
+.about .bio p {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+}
+
+.project {
+  background-color: #f2f4f5;
+}
+
+.subProject {
+  border-bottom: 5px solid white;
+  padding: 15px;
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.subProject .projectPic {
+  height: 400px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 400px;
+          flex: 1 0 400px;
+}
+.subProject .projectWording {
+  padding: 25px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 400px;
+          flex: 1 1 400px;
+}
+.subProject .projectWording button {
+  background-color: #eeaf98;
+}
+
+.evenProject .projectWording {
+  -webkit-box-ordinal-group: 0;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.contact {
+  background-color: #5169bd;
+  color: #f2f4f5;
+}
+.contact h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 50vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0;
+  color: #eeaf98;
+}
+
+.socialIcons li {
+  margin: 0 10px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+label,
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
 }

@@ -1,0 +1,29 @@
+@use "./variables" as v;
+
+.project {
+  background-color: v.$lightColor;
+}
+
+.subProject {
+  border-bottom: 5px solid white;
+  padding: 15px;
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  .projectPic {
+    height: 400px;
+    flex: 1 0 400px;
+  }
+  .projectWording {
+    padding: 25px;
+    flex: 1 1 400px;
+    button {
+      background-color: v.$successColor;
+    }
+  }
+}
+.evenProject .projectWording {
+  order: -1;
+}

@@ -1,5 +1,46 @@
 @use "./variables" as v;
 
 header {
+  min-height: 500px;
+  background-color: v.$primaryColor;
+  color: v.$lightColor;
   font-family: v.$baseFontPrimary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-family: v.$baseFontSecondary;
+    padding: 0;
+    color: red;
+  }
+  button {
+    background-color: v.$successColor;
+    color: v.$darkColor;
+    font-family: v.$baseFontSecondary;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.header {
+  display: flex;
+  //   justify-content: center;
+  text-align: center;
+}
+
+nav {
+  background-color: v.$primaryColor;
+  color: v.$lightColor;
+}
+
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-self: center;
+  padding: 1rem;
 }

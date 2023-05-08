@@ -18,35 +18,193 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&family=Source+Sans+Pro:wght@400;600&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://kit.fontawesome.com/76a83b38b3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="styles/style.css" />
 
     <title>Osman Omar</title>
   </head>
   <body>
-    <!-- NAVIGATION -->
-    <nav>
-      <div class="wrapper"></div>
-    </nav>
     <!-- HEADER -->
-    <header>
-      <div class="wrapper"></div>
-    </header>
-    <!-- SKILLS -->
-    <section>
-      <div class="wrapper"></div>
-    </section>
-    <!-- PROJECTS -->
-    <section>
-      <div class="wrapper"></div>
-    </section>
-    <!-- FORM -->
-    <section>
+    <header class="header">
       <div class="wrapper">
-        <form action=""></form>
+        <!-- NAVIGATION -->
+        <nav class="navigation">
+          <ul class="navMenu">
+            <li class="navLink"><a href="#home">Home</a></li>
+            <li class="navLink"><a href="#about">About</a></li>
+            <li class="navLink"><a href="#project">Projects</a></li>
+            <li class="navLink"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <h1 id="typedText">osman omar</h1>
+          <p>Toronto based web developer</p>
+          <button>get in touch</button>
+        </div>
       </div>
-    </section>
+    </header>
+    <main>
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <div class="wrapper">
+          <div class="bio">
+            <h2>about me</h2>
+            <p>
+              I am a Front-End Developer that creates accessible and responsive
+              designs. I specialize in HTML5, CSS/SASS, JS, Firebase, React, and
+              API. Prior to Web Development, I have 10+ years in the logistics
+              industry, managing a small fleet of semi-trucks and an employment
+              agency. This career background has helped me develop strong
+              leadership and interpersonal skills, thorough attention to detail,
+              and excellent stress-management. This prior experience has honed
+              in my ability to both see the bigger picture, and the smaller fine
+              details. I have completed Juno College's Web Development Bootcamp,
+              building 4 projects within a team, with a partner, and
+              independently.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- SKILLS -->
+      <section class="skills">
+        <div class="wrapper">
+          <h2>skills</h2>
+          <div class="iconsSkills"></div>
+        </div>
+      </section>
+      <!-- PROJECTS -->
+      <section class="project" id="project">
+        <div class="wrapper">
+          <h2>projects</h2>
+          <div class="subProject">
+            <div class="projectPic">
+              <img
+                src="/assests/pronia-labtop.png"
+                alt="Pronia homepage, a project example."
+              />
+            </div>
+            <div class="projectWording">
+              <h3>Pronia</h3>
+              <p>HTML, CSS, JAVASCRIPT, FIREBASE</p>
+              <p>
+                Juno College project showcasing HTML, CSS/SASS, and JavaScript.
+                The eCommerce website is for a fictional plant store, displaying
+                inventory via Firebase, and a shopping cart built with
+                JavaScript.
+              </p>
+              <div class="projectButton">
+                <button>
+                  <a href="https://gleaming-banoffee-f7a1f6.netlify.app/"
+                    >view live</a
+                  >
+                </button>
+                <button>
+                  <a
+                    href="https://github.com/gerard-osman-project-two/gerard-osman-project-2.git"
+                    >view code</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="subProject evenProject">
+            <div class="projectPic">
+              <img
+                src="/assests/panda-labtop.png"
+                alt="Panda sanctuary website."
+              />
+            </div>
+            <div class="projectWording">
+              <h3>Panda Sanctuary</h3>
+              <p>HTML, CSS, JAVASCRIPT, FIREBASE</p>
+              <p>A PSD design conversion of a panda sanctuary website.</p>
+              <div class="projectButton">
+                <button>
+                  <a href="">view live</a>
+                </button>
+                <button>
+                  <a href="https://github.com/OsmanAOmar/panda-sanctuary.git"
+                    >view code</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="subProject">
+            <div class="projectPic">
+              <img
+                src="/assests/project_pronia.png"
+                alt="Pronia homepage, a project example."
+              />
+            </div>
+            <div class="projectWording">
+              <h3>Panada Sanctuary</h3>
+              <p>HTML, CSS, JAVASCRIPT, FIREBASE</p>
+              <p>A PSD design conversion of a panda sanctuary website.</p>
+              <div class="projectButton">
+                <button>
+                  <a href="">view live</a>
+                </button>
+                <button>
+                  <a href="https://github.com/OsmanAOmar/panda-sanctuary.git"
+                    >view code</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FORM -->
+      <section class="contact" id="contact">
+        <div class="wrapper">
+          <h1>get in touch</h1>
+
+          <!-- Social Icons -->
+          <ul class="socialIcons">
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook fa-bounce"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter fa-bounce"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram fa-bounce"></i></a>
+            </li>
+          </ul>
+          <p>Please fill out the form below and we'll get back to you soon:</p>
+
+          <!-- Contact Form -->
+          <div class="form">
+            <form action="submit-form.php" method="POST">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- FOOTER -->
-    <footer></footer>
+    <footer>
+      <div class="wrapper">
+        <p>Built in 2023 by Osman Omar</p>
+      </div>
+    </footer>
   </body>
 </html>
