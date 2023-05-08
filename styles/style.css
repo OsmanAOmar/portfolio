@@ -369,11 +369,12 @@ header {
 }
 header h1 {
   font-size: 4rem;
+  padding-bottom: 0;
 }
 header p {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
-  color: red;
+  color: inherit;
 }
 header button {
   background-color: #eeaf98;
@@ -445,17 +446,17 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 4rem;
   min-width: 50vh;
   background-color: #a3bdee;
   color: #000;
-  padding: 5rem;
 }
 .skills .wrapper {
   text-align: center;
 }
 .skills .wrapper h2 {
   font-family: "Playfair Display", serif;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 .skills .iconSkills {
   display: -webkit-box;
@@ -484,6 +485,13 @@ nav {
 
 .project {
   background-color: #f2f4f5;
+}
+.project .wrapper h2 {
+  font-family: "Playfair Display", serif;
+  color: #424b6d;
+  font-size: 4rem;
+  text-align: center;
+  padding: 1rem;
 }
 
 .subProject {
@@ -527,10 +535,11 @@ nav {
 .contact {
   background-color: #5169bd;
   color: #f2f4f5;
+  text-align: center;
 }
 .contact h1 {
   font-family: "Playfair Display", serif;
-  font-size: 3rem;
+  font-size: 4rem;
   text-align: center;
   padding: 1rem;
 }
@@ -551,7 +560,7 @@ nav {
           justify-content: center;
   min-height: 50vh;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .socialIcons {

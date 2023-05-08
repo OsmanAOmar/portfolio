@@ -11,11 +11,12 @@ header {
   align-items: center;
   h1 {
     font-size: 4rem;
+    padding-bottom: 0;
   }
   p {
-    font-family: v.$baseFontPrimary;
-    color: v.$lightColor;
+    font-family: v.$baseFontSecondary;
     padding: 0;
+    color: inherit;
   }
   button {
     background-color: v.$successColor;
@@ -28,7 +29,7 @@ header {
 
 .header {
   display: flex;
-  justify-content: center;
+  //   justify-content: center;
   text-align: center;
 }
 

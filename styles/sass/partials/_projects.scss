@@ -2,6 +2,13 @@
 
 .project {
   background-color: v.$lightColor;
+  .wrapper h2 {
+    font-family: v.$baseFontPrimary;
+    color: v.$primaryColor;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem;
+  }
 }
 
 .subProject {

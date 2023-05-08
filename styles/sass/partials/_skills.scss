@@ -4,19 +4,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 4rem;
   min-width: 50vh;
   background-color: v.$infoColor;
   color: v.$darkColor;
-  padding: 5rem;
   .wrapper {
     text-align: center;
     h2 {
       font-family: v.$baseFontPrimary;
-      font-size: 3rem;
+      font-size: 4rem;
     }
   }
   .iconSkills {
     display: flex;
+    // flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

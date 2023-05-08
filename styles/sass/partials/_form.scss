@@ -2,9 +2,10 @@
 .contact {
   background-color: v.$secondaryColor;
   color: v.$lightColor;
+  text-align: center;
   h1 {
     font-family: v.$baseFontPrimary;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     padding: 1rem;
   }
@@ -16,7 +17,7 @@
   justify-content: center;
   min-height: 50vh;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: v.$baseFontSecondary;
 }
 
 .socialIcons {
