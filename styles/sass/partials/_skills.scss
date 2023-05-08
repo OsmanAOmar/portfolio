@@ -17,7 +17,6 @@
   }
   .iconSkills {
     display: flex;
-    // flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -27,6 +26,7 @@
   }
 }
 
+// technique to have text beneath icons learned from chatGPT
 .iconSkills i::after {
   content: attr(title);
   display: block;
