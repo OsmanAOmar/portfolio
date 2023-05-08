@@ -6,3 +6,43 @@
 @use "./partials/form";
 @use "./partials/footer";
 @use "./partials/variables";
+
+@media (max-width: 768px) {
+  header.wrapper {
+  }
+}
+
+/* Mobile devices (up to 767px) */
+@media screen and (max-width: 767px) {
+  .header {
+    width: 100%;
+    padding: 0 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+/* Tablets and small desktop screens (768px to 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    position: relative;
+  }
+  .navigation {
+    font-size: 0.5rem;
+  }
+}
+
+/* Larger desktop screens (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .header {
+  }
+
+  .navigation {
+  }
+}
