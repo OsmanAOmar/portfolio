@@ -13,9 +13,9 @@ header {
     font-size: 4rem;
   }
   p {
-    font-family: v.$baseFontSecondary;
+    font-family: v.$baseFontPrimary;
+    color: v.$lightColor;
     padding: 0;
-    color: red;
   }
   button {
     background-color: v.$successColor;
@@ -28,7 +28,7 @@ header {
 
 .header {
   display: flex;
-  //   justify-content: center;
+  justify-content: center;
   text-align: center;
 }
 
